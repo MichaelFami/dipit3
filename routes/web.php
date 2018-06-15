@@ -15,14 +15,14 @@ Route::get('/', function () {
     return view('landing');
 });
 
-Route::get('/fullStack', function (){
-    return view('fullStack');
-});
-
-Route::get('/applicationForm' , function (){
-    return view('applicationForm');
-});
-
-Route::get('/courseCatalog' , function (){
-    return view('courseCatalog');
-});
+// Route::get('/fullStack', function (){
+//     return view('fullStack');
+// });
+//
+// Route::get('/applicationForm' , function (){
+//     return view('applicationForm');
+// });
+//
+// Route::get('/courseCatalog' , function (){
+//     return view('courseCatalog');
+// });

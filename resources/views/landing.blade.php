@@ -1,4 +1,4 @@
-@extends('master') @section('title') Valley Technical Academy @endsection @section('body')
+@extends('master') @section('title') Dip It @endsection @section('body')
 <div id="home" class="jumbotron jumbotron-fluid">
 
         <div class="row mx-4">
@@ -12,7 +12,7 @@
             </div>
         </div>
 </div>
-<div id="threeButtons" class="row mx-5">
+{{-- <div id="threeButtons" class="row mx-5">
     <div class="col">
         <button id="onlineCourseBtn" class="btn px-4 py-2" type="button" name="button">ONLINE COURSES CATALOG</button>
     </div>
@@ -23,17 +23,17 @@
         >APPLY</button>
     </div>
 
-</div>
+</div> --}}
 
 <div class="row my-5 py-5 pl-4 ml-4">
     <div class="col w-200">
         <img src="images/vtasample1.png" alt="">
     </div>
     <div class="col-md-6 text-left">
-        <h1 class="text-primary">Our Online Structure</h1>
+        <h1 class="text-primary">Our Process</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>View our <a class="text-primary" href="#">Online Courses Catalog</a></p>
+
     </div>
 </div>
 <div class="row my-4 py-4 px-5">
@@ -41,7 +41,7 @@
         <h1 class="text-primary">The Experience</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>View our <a class="text-primary" href="#">Online Courses Catalog</a></p>
+
     </div>
     <div class="col-md-5">
         <img src="images/vtasample2.png" alt="">
@@ -50,8 +50,8 @@
 
 <div class="row justify-content-center py-4">
     <div class="col-md-6">
-        <h1 class="text-primary text-center">Dip It Flavors</h1>
-        <h4 class="text-primary text-center">Be immersed in learning life-changing skills</h4>
+        <h1 class="text-primary text-center">Dip It Recipes</h1>
+        <h4 class="text-primary text-center">Be immersed in our recipes</h4>
     </div>
 
 </div>
@@ -62,8 +62,8 @@
 
             <div id="slide1" class="row">
                 <div class="col">
-                    <h4>FULL STACK DEVELOPER</h4>
-                    <h5>Entry, Mid, & Advanced Levels</h5>
+                    <h4>Dip It Cilantro</h4>
+                    <h5></h5>
                     <div class="row justify-content-center">
                         <button class="btn btn-danger straightEdges" type="button" name="button">LEARN MORE</button>
                     </div>
@@ -88,8 +88,8 @@
         <img src="images/carousel3.png" />
         <div id="slide3" class="row">
             <div class="col">
-                <h4>FULL STACK DEVELOPER</h4>
-                <h5>Entry, Mid, & Advanced Levels</h5>
+                <h4>Chipotle</h4>
+                <h5></h5>
                 <div class="row justify-content-center">
                     <button class="btn btn-primary straightEdges" type="button" name="button">LEARN MORE</button>
                 </div>
@@ -101,8 +101,8 @@
         <img src="images/carousel1.png" />
         <div  class="row">
             <div class="col">
-                <h4>DATA SCIENCE</h4>
-                <h5>Entry, Mid, & Advanced Levels</h5>
+                <h4>Dip It Olives</h4>
+                <h5></h5>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -116,7 +116,7 @@
     </div>
 </div>
 
-<div class="row my-4" id="greyBand">
+{{-- <div class="row my-4" id="greyBand">
     <div class="col-md-6 text-center">
         <p class="greyBandText">NEXT SESSION CLASSES BEGIN JUN. 11, 2018</p>
         <button class="py-1 px-4" type="button" name="button">VIEW CATALOG</button>
@@ -125,12 +125,12 @@
         <p class="greyBandText">FINANCIAL ASSISTANCE AVAILABLE</p>
         <button class="py-1 px-4" type="button" name="button">LEARN MORE</button>
     </div>
-</div>
+</div> --}}
 <div class="row justify-content-center" id="contact">
     <div class="col-md-8 text-center">
         <h2>Have a Question? Let's Talk :)</h5>
         <br>
-        <h5>Please provide your contact info and we will get in touch with you about the online program.</h3>
+        <h5>Please provide your contact info and we will get in touch with you about Dip It.</h3>
     </div>
 
 
